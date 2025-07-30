@@ -21,6 +21,20 @@
 - **Mixed Defense with Marines, Siege Tanks, and Missile Turrets**  
   UEDBot uses Marines and Siege Tanks for defense while expanding its base with Missile Turrets to counter air threats in the later stages.
 
+## In-game Footages
+
+<p align="center">
+    <img src="./media/defense.gif"/>
+    <br />
+    Base defense with ramp blocking
+</p>
+
+<p align="center">
+    <img src="./media/kiting.gif"/>
+    <br />
+    Kiting with Marines
+</p>
+
 ## Tournament Achievement
 
 UEDBot is an undefeated champion, securing **1st place** in a tournament of **11 StarCraft 2 bots** with an impressive record of **57 wins**, **3 draws**, and **0 losses**.
