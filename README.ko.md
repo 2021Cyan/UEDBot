@@ -24,13 +24,13 @@
 ## 인게임 영상
 
 <p align="center">
-    <img src="./media/defense.gif"/>
+    <img src="./media/defense.gif" width="600"/>
     <br />
     입구 막기를 활용한 기지 방어
 </p>
 
 <p align="center">
-    <img src="./media/kiting.gif"/>
+    <img src="./media/kiting.gif" width="600"/>
     <br />
     해병을 활용한 카이팅
 </p>
