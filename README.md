@@ -24,13 +24,13 @@
 ## In-game Footages
 
 <p align="center">
-    <img src="./media/defense.gif"/>
+    <img src="./media/defense.gif" width="600"/>
     <br />
     Base defense with ramp blocking
 </p>
 
 <p align="center">
-    <img src="./media/kiting.gif"/>
+    <img src="./media/kiting.gif" width="600"/>
     <br />
     Kiting with Marines
 </p>
