@@ -2,7 +2,8 @@
 
 ## 🌐 다른 언어로 보기: [한국어 🇰🇷](./README.ko.md)
 
-**UEDBot** is a high-performance Terran StarCraft 2 bot built in C++ that utilizes advanced strategies for both defense and offense. It features dynamic ramp blocking, optimized resource collection, and aggressive rush attacks to dominate opponents. UEDBot recently claimed **1st place** in a tournament of 11 bots, finishing undefeated with a record of **57 wins**, **3 draws**, and **0 losses**.
+**UEDBot** is a high-performance Terran StarCraft 2 bot built in C++ that utilizes advanced strategies for both defense and offense. It features dynamic ramp blocking, optimized resource collection, and aggressive rush attacks to dominate opponents. UEDBot took **first place** in an 11-bot tournament held as part of the **CMPUT 350 course at the University of Alberta**, finishing with an undefeated record of **57 wins**, **3 draws**, and **0 losses**.
+
 
 ## Features
 
