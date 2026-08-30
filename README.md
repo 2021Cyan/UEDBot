@@ -2,43 +2,54 @@
 
 ## 🌐 다른 언어로 보기: [한국어 🇰🇷](./README.ko.md)
 
-**UEDBot** is a high-performance Terran StarCraft 2 bot built in C++ that utilizes advanced strategies for both defense and offense. It features dynamic ramp blocking, optimized resource collection, and aggressive rush attacks to dominate opponents. UEDBot took **first place** in an 11-bot tournament held as part of the **CMPUT 350 course at the University of Alberta**, finishing with an undefeated record of **57 wins**, **3 draws**, and **0 losses**.
+UEDBot is a Terran StarCraft II bot written in C++. It combines an opening wall, automated economy management, micro-oriented combat control, and a Battlecruiser timing attack into a complete ladder-ready strategy.
+
+> **Tournament result:** 1st place in an 11-bot tournament for the University of Alberta's CMPUT 350 course — **57 wins, 3 draws, 0 losses**.
+
+## My contributions
+
+- **Battlecruiser control** — implemented and refined teleport timing, target selection, retreat behavior, and combat movement in `ControlBattlecruisers.cpp`.
+- **Ground-unit micro** — added Marine control and completed Siege Tank control, then iterated on target prioritization, kiting, siege-mode behavior, and duplicate-order handling in `ControlMarines.cpp` and `ControlSiegeTanks.cpp`.
+- **Opening and production flow** — built and evolved the build-order and production logic for Terran structures, Marines, and Battlecruisers in `Build_Order.cpp` and `Build_Units.cpp`.
 
 
-## Features
+## Highlights
 
-- **Dynamic Ramp Blocking**  
-  UEDBot blocks key ramps with Supply Depots and a Barracks for early-game defense, preventing enemy units from advancing.
+- **Opening wall and base defense**  
+  Uses Supply Depots and a Barracks to close key ramps early, then layers Marines, Siege Tanks, and Missile Turrets as the game develops.
 
-- **Optimized Resource Collection**  
-  UEDBot uses SCVs and Mules effectively for fast and efficient mineral and gas collection, ensuring a steady economic advantage.
+- **Economy automation**  
+  Coordinates SCVs, MULEs, mineral saturation, and gas collection to support continuous production.
 
-- **Unit Kiting**  
-  Inspired by professional play, UEDBot employs advanced kiting tactics with Marines and Battlecruisers to minimize damage while engaging enemies.
+- **Combat micro**  
+  Controls Marines and Battlecruisers with kiting behavior to preserve units while trading efficiently.
 
-- **Super Fast Rush Attack with Battlecruiser Teleport**  
-  UEDBot teleports a Battlecruiser to the enemy base before the 5-minute 30-second mark, followed by reinforcements of Marines and Siege Tanks for relentless pressure.
+- **Battlecruiser timing pressure**  
+  Teleports a Battlecruiser into the enemy base before 5:30, with Marine and Siege Tank reinforcements following behind.
 
-- **Mixed Defense with Marines, Siege Tanks, and Missile Turrets**  
-  UEDBot uses Marines and Siege Tanks for defense while expanding its base with Missile Turrets to counter air threats in the later stages.
+- **Modular behavior code**  
+  Separates economy, scouting, defense, offense, build orders, and unit-control logic into focused C++ modules.
 
-## In-game Footages
+## In-game footage
 
 <p align="center">
-    <img src="./media/defense.gif" width="600"/>
+    <img src="./media/defense.gif" width="600" alt="Base defense with a ramp wall" />
     <br />
     Base defense with ramp blocking
 </p>
 
 <p align="center">
-    <img src="./media/kiting.gif" width="600"/>
+    <img src="./media/kiting.gif" width="600" alt="Marines kiting enemy units" />
     <br />
     Kiting with Marines
 </p>
 
-## Tournament Achievement
+## What is in this repository
 
-UEDBot is an undefeated champion, securing **1st place** in a tournament of **11 StarCraft 2 bots** with an impressive record of **57 wins**, **3 draws**, and **0 losses**.
+- Core bot orchestration: `BasicSc2Bot.*`
+- Economy, defense, offense, and build-order behaviors
+- Specialized control modules for SCVs, Marines, Siege Tanks, and Battlecruisers
+- Map and helper utilities, plus the `cpp-sc2` submodule dependency
 
 
 # Developer Install / Compile Instructions
