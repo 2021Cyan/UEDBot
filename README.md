@@ -2,6 +2,18 @@
 
 ## 🌐 다른 언어로 보기: [한국어 🇰🇷](./README.ko.md)
 
+<p align="center">
+    <img src="./media/defense.gif" width="600" alt="Base defense with a ramp wall" />
+    <br />
+    Base defense with ramp blocking
+</p>
+
+<p align="center">
+    <img src="./media/kiting.gif" width="600" alt="Marines kiting enemy units" />
+    <br />
+    Kiting with Marines
+</p>
+
 UEDBot is a Terran StarCraft II bot written in C++. It combines an opening wall, automated economy management, micro-oriented combat control, and a Battlecruiser timing attack into a complete ladder-ready strategy.
 
 > **Tournament result:** 1st place in an 11-bot tournament for the University of Alberta's CMPUT 350 course — **57 wins, 3 draws, 0 losses**.
@@ -29,8 +41,6 @@ UEDBot is a Terran StarCraft II bot written in C++. It combines an opening wall,
 
 - **Modular behavior code**  
   Separates economy, scouting, defense, offense, build orders, and unit-control logic into focused C++ modules.
-
-## In-game footage
 
 <p align="center">
     <img src="./media/defense.gif" width="600" alt="Base defense with a ramp wall" />
