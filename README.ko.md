@@ -2,6 +2,18 @@
 
 ## 🌐 다른 언어로 보기: [English 🇺🇸](./README.md)
 
+<p align="center">
+    <img src="./media/defense.gif" width="600" alt="입구 차단을 활용한 기지 방어" />
+    <br />
+    입구 막기를 활용한 기지 방어
+</p>
+
+<p align="center">
+    <img src="./media/kiting.gif" width="600" alt="해병 카이팅" />
+    <br />
+    해병을 활용한 카이팅
+</p>
+
 UEDBot은 C++로 작성한 테란 스타크래프트 II 봇입니다. 초반 입구 차단, 자동 경제 관리, 교전 마이크로, 전투순양함 타이밍 공격을 하나의 완성된 전략으로 결합했습니다.
 
 > **토너먼트 성과:** University of Alberta의 CMPUT 350 수업에서 열린 11개 봇 토너먼트에서 **1위** — **57승, 3무, 0패**.
@@ -28,20 +40,6 @@ UEDBot은 C++로 작성한 테란 스타크래프트 II 봇입니다. 초반 입
 
 - **모듈형 동작 코드**
   경제, 정찰, 방어, 공격, 빌드 오더, 유닛 제어 로직을 목적별 C++ 모듈로 분리했습니다.
-
-## 인게임 영상
-
-<p align="center">
-    <img src="./media/defense.gif" width="600" alt="입구 차단을 활용한 기지 방어" />
-    <br />
-    입구 막기를 활용한 기지 방어
-</p>
-
-<p align="center">
-    <img src="./media/kiting.gif" width="600" alt="해병 카이팅" />
-    <br />
-    해병을 활용한 카이팅
-</p>
 
 ## 저장소 구성
 
