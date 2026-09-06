@@ -42,18 +42,6 @@ UEDBot is a Terran StarCraft II bot written in C++. It combines an opening wall,
 - **Modular behavior code**  
   Separates economy, scouting, defense, offense, build orders, and unit-control logic into focused C++ modules.
 
-<p align="center">
-    <img src="./media/defense.gif" width="600" alt="Base defense with a ramp wall" />
-    <br />
-    Base defense with ramp blocking
-</p>
-
-<p align="center">
-    <img src="./media/kiting.gif" width="600" alt="Marines kiting enemy units" />
-    <br />
-    Kiting with Marines
-</p>
-
 ## What is in this repository
 
 - Core bot orchestration: `BasicSc2Bot.*`
